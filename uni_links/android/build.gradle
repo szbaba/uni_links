@@ -20,8 +20,8 @@ rootProject.allprojects {
 }
 
 apply plugin: 'com.android.library'
-namespace 'name.gerkules.uni_links'
 android {
+    namespace 'name.gerkules.uni_links'
     compileSdkVersion 28
 
     defaultConfig {
